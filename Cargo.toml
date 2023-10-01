@@ -10,5 +10,5 @@ anyhow = "1.0.75"
 blowfish = "0.9.1"
 log = "0.4.20"
 openh264 = "0.4.2"
-sdl2 = { version = "0.35.2", features = ["image"] }
+sdl2 = { version = "0.35.2" }
 simple_logger = "4.2.0"

@@ -8,13 +8,15 @@ Rust client for Brookstone Rover Revolution
 
 This program can control the Brookstone Rover Revolution via WiFi. It uses the reverse engineered protocol from the android app which is not available in the play store anymore. The camera feed is displayed using SDL2.
 
-Keybindings:
+Since the raw socket protocol is reverse engineered, the program might panic when encoutering unexpected data.
+
+Also, if anyone has a firmware dump please let me know, this would make things a lot easier.
+
+## Keybindings:
 - `q` to quit
 - `wasd` to move
 - `e` to toggle "stealth mode" aka. infrared lights
 - `1` or `2` to toggle between driving and turret camera
 - `arrow keys` to move the turret
 
-> Since the raw socket protocol is reverse engineered, the program might panic when encoutering unexpected data. This is still a work in progress.
-
-Manual: https://manuals.brookstone.com/851135p_manual.pdf
+> Manual: https://manuals.brookstone.com/851135p_manual.pdf
