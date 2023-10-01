@@ -1,3 +1,5 @@
+[![Rust](https://github.com/Fabus1184/rover-revolution/actions/workflows/rust.yml/badge.svg)](https://github.com/Fabus1184/rover-revolution/actions/workflows/rust.yml)
+
 # rover-revolution
 Rust client for Brookstone Rover Revolution
 
